@@ -61,6 +61,10 @@
 .jumbocontainer{
   height: 400px;
   background-color: rgb(15, 91, 184);
+  background-image: url(../imgs/fluentify-jumbo.png);
+  background-position: bottom right;
+  background-size: 1068px 379px;
+  background-repeat: no-repeat;
 }
 /*  regole contenitore testi */
 .mainframe {
@@ -208,4 +212,60 @@
   color: lightblue;
   display: inline-block;
   margin-top: 20px;
+}
+/*  REGOLE FOOTER INIZIANO QUI */
+.f-sfondo {
+  background-color: lightgrey;
+}
+
+.ft-colonna-sx {
+  margin: 40px 0;
+  float: left;
+}
+
+.ft-colonna-sx h3 {
+  font-size: 1.5em;
+
+}
+
+.ft-colonna-dx {
+  margin-top: 40px;
+  float: right;
+}
+.ft-inline-element {
+  display: inline-block;
+}
+
+.ft-colonna-dx span {
+  color: grey;
+}
+
+.ft-colonna-dx select {
+  text-decoration: underline;
+  border: none;
+  background-color: lightgrey;
+  color: grey;
+}
+
+.visualizza-piano  {
+  background-color:rgb(25, 196, 22);
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+}
+.wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+.help {
+  background-color:rgb(25, 196, 22);
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 30%;
+  display: inline-block;
+}
+
+.visualizza-piano a, .help a {
+  text-decoration: none;
+  color: white;
 }
