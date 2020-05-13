@@ -2,8 +2,76 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+/*  generali */
+.centratura {
+  padding: 0% 10%;
 }
 
-.centratura {
-  padding: 0, 10%;
+/*  regole header */
+.topnavbar{
+  background-color: rgb(15, 91, 184);
+  width: 100%;
+}
+
+.logo {
+  background-image: url(../imgs/fluentify-logo.svg);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+/* regole barra nav generali  */
+.topnavbar li, .topnavbar ul {
+  display: inline-block;
+}
+
+.topnavbar li {
+  margin-right: 10px;
+}
+
+.topnavbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnavbar .borderwhite{
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.topnavbar .greenbox {
+  background-color: rgb(25, 196, 22);
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+
+.loginblock {
+  text-align: right;
+  width: 43%;
+}
+
+/* regole immaginona centrale */
+.jumbocontainer{
+  height: 400px;
+  background-color: rgb(15, 91, 184);
+  position: relative;
+  padding-right: 0;
+}
+
+.mainpicture {
+  background-image: url(../imgs/fluentify-jumbo.png);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 300px;
+  right: 0;
+  bottom: 0;
 }
